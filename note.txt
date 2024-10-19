@@ -1,0 +1,9 @@
+## Form
+Phần validate form phải chia ra 1 file rule để định nghĩa các kiểu validate schema
+Phần check validate confirm password match với password dùng watch(bị render) dùng getValue(ko bị re render)
+Dùng yup schema validation
+
+
+
+tạo các input, button dùng chung
+

@@ -28,3 +28,52 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Chức năng
+-Authen Module: Quản lí băng JWT
+
+- đăng ký 
+- đănh nhập
+- đăng xuất
+
+- Trang danh sách sản phẩm:
+
+-phân trang
+-Sort theo từng thuộc tính sản phẩm
+-Filter nâng cao theo từng thuộc tính sản phẩm
+-Search sản phẩm
+
+- Trang chi tiết sản phẩm
+
+- Hiển thị thông tin chi tiết
+- Ảnh hiển thị theo slider + hover zoom effect
+- Mô tả thì hiển thị rich text dạng WYSIWYG HTML
+- Có chức năng mua hàng
+
+-Giỏ hàng
+
+- Quản lí đơn hàng: Thêm, sửa xóa sản phẩm
+- Mua hàng
+
+- Quản lí profile khách hàng
+
+- Update thông tin cá nhân
+- Upload avatar
+- Đổi mật khẩu
+- Xem tình trạng đơn hàng
+
+## Công nghệ sử dụng
+
+- UI/CSS: Tailwindcss + HeadlessUI
+- State Management: React Query cho async state và React Context cho state thường
+- Form Management: React Hook Form
+- Router: React Router
+- Build tool: Vite
+- API: Rest API tự build expressjs
+- Hỗ trợ đa ngôn ngữ với react.i18next
+- Hỗ trợ SEO với React Helmet
+- Mô hình hóa component với storybook
+- Unit test
+
+
+
